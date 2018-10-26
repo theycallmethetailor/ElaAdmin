@@ -2,11 +2,18 @@ $.noConflict();
 
 jQuery(document).ready(function($) {
 	var undefinable = '';
-	var objYep = {myName: Mandy, Age: "old as dirt"};
+	var objYep = {myName: 'Mandy', Age: "old as dirt"};
 	var moreLikeArrYay = ['fun', 'in', 'the', 'sun'];
 	var stringALong = "Wow";
 	var num = 5;
 	var boo = true;
+
+	console.log(undefinable);
+	console.log(objYep);
+	console.log(moreLikeArrYay);
+	console.log(stringALong);
+	console.log(num);
+	console.log(boo);
 
 
 	"use strict";
